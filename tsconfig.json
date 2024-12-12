@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "es2020",                
+      "module": "esnext",                
+      "moduleResolution": "node",        
+      "esModuleInterop": true,           
+      "allowJs": true,                   
+      "checkJs": false,                  
+      "jsx": "react",                    
+      "outDir": "./dist",                
+      "removeComments": true,            
+      "strict": true,                   
+      "declaration": true,               
+      "declarationDir": "./dist/types", 
+      "skipLibCheck": true,              
+      "lib": ["es2020", "dom"]       
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.js"  
+    ],
+    "exclude": [
+      "node_modules" 
+    ]
+  }
+  

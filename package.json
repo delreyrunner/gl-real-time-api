@@ -1,0 +1,20 @@
+{
+  "name": "realtime-relay-service",
+  "version": "1.0.0",
+  "description": "A WebSocket relay service for OpenAI Realtime API",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/server.js",
+    "dev": "ts-node src/server.js"
+  },
+  "dependencies": {
+    "@openai/realtime-api-beta": "github:openai/openai-realtime-api-beta",
+    "dotenv": "^16.4.7",
+    "ws": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.13",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

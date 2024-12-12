@@ -1,0 +1,71 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Next.js build output
+.next/
+out/
+
+# Build directories
+build/
+dist/
+
+# Debug and profiling output
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+
+# IDE settings and configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# npm package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Temporary files
+tmp/
+temp/
+
+# Test-related files
+.nyc_output/
+jest.config.js
+test-results/
+
+# Miscellaneous
+*.tgz
+*.bak
+*.backup
+*.orig
+
+# Git files
+*.patch
+*.diff
+
+# Private keys
+*.pem
+*.crt
+*.key
